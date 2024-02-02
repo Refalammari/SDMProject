@@ -5,33 +5,31 @@ Prioritizing good sleep hygiene and ensuring sufficient, quality sleep is essent
 Therefore, we are collecting this dataset to predict what are the factors that will help a person to reach the highest percentage of their sleep efficiency.
 
 #URL link:
-kaggle datasets download -d equilibriumm/sleep-efficiency
+https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency?resource=download&select=Sleep_Efficiency.csv
 
 
 #Genral information:
 
-Our dataset contains 15 attributes, and 503 objects (See Table 1).
+Our dataset contains 13 attributes, and 502 objects (See Table 1).
 Furthermore, the class label for our dataset is Sleep Effciency.
 
 ##### Table 1: General Information about the attributes 
 
-| Attributes name | Description                       | Data type |    
-|------------------|------------------|------------------|-------------------|
-| ID              | unique identifier                 | Nominal   | 
-| Age             | age of the test subject           | Nominal   | 
-| Gender          | male or female                    | Nominal   | 
-| Bed Time        | time goes to bed each night       | Numeric   | 
-| Wakeup Time     | time wakes up each morning        | Numeric   | 
-| Sleep duration  | total amount of time slept        | Numeric  | 
-| Sleep efficiency| time in bed spent asleep          | Numeric   | 
-| R.E.M %         | time spent in REM sleep           | Numeric   | 
-| Deep sleep %    | time spent in deep sleep          | Numeric   | 
-| Light sleep %   |  time spent in light sleep        | Numeric   | 
-| Awakenings      | # of times wakes up during the night| Numeric   | 
-| Caffeine consum | amount of caffeine consumed in 24hours| Numeric   |
-| Alcohol consum  | amount of alcohol consumed in the 24hours | Numeric          | Numeric   | 
-| Smoking         | whether or not smokes            | Nominal    | 
-| Exercise freqency |number of times exercises each week  | Numeric   | 
+| Attributes name  | Description                                  | Data type |    
+|------------------|----------------------------------------------|-----------|
+| ID               | unique identifier                            | Nominal   | 
+| Age              | age of the test subject                      | Nominal   | 
+| Gender           | male or female                               | Nominal   | 
+| Sleep duration   | total amount of time slept                   | Numeric   | 
+| Sleep efficiency | time in bed spent asleep                     | Numeric   | 
+| R.E.M %          | time spent in REM sleep                      | Numeric   | 
+| Deep sleep %     | time spent in deep sleep                     | Numeric   | 
+| Light sleep %    |  time spent in light sleep                   | Numeric   | 
+| Awakenings       | # of times wakes up during the night         | Numeric   | 
+| Caffeine consum  | amount of caffeine consumed in 24hours       | Numeric   |
+| Alcohol consum   | amount of alcohol consumed in the 24hours    | Numeric   | 
+| Smoking          | whether or not smokes                        | Nominal   | 
+| Exercise freqency| number of times exercises each week          | Numeric   | 
 
 
 
