@@ -1,34 +1,34 @@
-#Goal:
-sleep is a critical component of a healthy lifestyle, contributing to physical health, mental well-being, and overall quality of life. 
-Prioritizing good sleep hygiene and ensuring sufficient, quality sleep is essential for maintaining optimal health and functioning.
+# 1- Goal:
 
-Therefore, we are collecting this dataset to predict what are the factors that will help a person to reach the highest percentage of their sleep efficiency.
+Stroke ranks as the second leading cause of death globally and is the primary cause of disability. With the World Health Organization estimating that 1 in 4 individuals may encounter a stroke during their lifetime, we've opted to focus on this dataset due to the indiscriminate nature of strokes, affecting individuals of all ages. Our aim is to delve into the data, investigating and analyzing it to identify potential risk factors and gain insights into the demographics most susceptible to strokes. By leveraging this dataset, we intend to predict the likelihood of a patient experiencing a stroke based on parameters such as gender, age, existing medical conditions, and smoking status. Each entry in the dataset furnishes pertinent details about the patient, facilitating comprehensive analysis and predictive modeling.
 
-#URL link:
-https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency?resource=download&select=Sleep_Efficiency.csv
 
-#Genral information:
+# 2- Dataset:
 
-Our dataset contains 13 attributes, and 502 objects (See Table 1).
-Furthermore, the class label for our dataset is Sleep Effciency.
+Our dataset source is Kaggle : <https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset>
 
-##### Table 1: General Information about the attributes 
 
-| Attributes name  | Description                                  | Data type |    
-|------------------|----------------------------------------------|-----------|
-| ID               | unique identifier                            | Nominal   | 
-| Age              | age of the test subject                      | Nominal   | 
-| Gender           | male or female                               | Nominal   | 
-| Sleep duration   | total amount of time slept                   | Numeric   | 
-| Sleep efficiency | time in bed spent asleep                     | Numeric   | 
-| R.E.M %          | time spent in REM sleep                      | Numeric   | 
-| Deep sleep %     | time spent in deep sleep                     | Numeric   | 
-| Light sleep %    |  time spent in light sleep                   | Numeric   | 
-| Awakenings       | # of times wakes up during the night         | Numeric   | 
-| Caffeine consum  | amount of caffeine consumed in 24hours       | Numeric   |
-| Alcohol consum   | amount of alcohol consumed in the 24hours    | Numeric   | 
-| Smoking          | whether or not smokes                        | Nominal   | 
-| Exercise freqency| number of times exercises each week          | Numeric   | 
+# 3- Genral info about the dataset:
+
+Among the 5110 objects in our dataset sample, 12 attributes are used to describe them. (See Table 1).
+ the class label for our dataset is Stroke hat took two values 1 and 0 to indicate whether they are sufferd from it or not.
+
+ ##### Table 1: General Information about the attributes 
+
+| Attributes name   | Description                                                 | Data type |    
+|-------------------|-------------------------------------------------------------|-----------|
+| id                | Unique id of the patient                                    | Nominal   | 
+| gender            | Gender of the patient                                       | Binary    | 
+| age               | Age of the patient                                          | Numeric   | 
+| hypertension      | 1 means the patient has hypertension,0 means they do not.   | Binary    | 
+| heart_disease     | 1 means the patient has heart disease,0 means they do not.  | Binary    | 
+| ever_married      | Has the patient ever been married?                          | Binary    | 
+| work_type         | Work type of the patient                                    | Nominal   | 
+| residence_type    | Residence type of the patient                               | Binary    | 
+| avg_glucose_level | Average glucose level in blood                              | Numeric   | 
+| bmi               | Body Mass Index                                             | Numeric   |
+| Smoking state     | whether or not smokes                                       | Nominal   | 
+| stroke            | 1 means the patient had a stroke, 0 means not               | Binary    | 
 
 
 
