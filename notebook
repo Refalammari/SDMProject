@@ -3,6 +3,9 @@
  Our goal is to delve into the data, investigating and analyzing it to identify potential risk factors and gain insights into the demographics most susceptible to strokes. 
 By leveraging this dataset, we intend to predict the likelihood of a patient experiencing a stroke based on parameters such as gender, age, existing medical conditions, and smoking status. 
 Each entry in the dataset furnishes pertinent details about the patient, facilitating comprehensive analysis and predictive modeling.
+classification goal involve using data mining to build a predictive model that classifies individuals into two categories: those at high risk of experiencing a stroke and those at low risk.
+
+
 
 # 2- Dataset:
 
