@@ -1,7 +1,7 @@
 # Stroke Prediction - IT326
 Group #2 data mining project 
 
-Stroke ranks as the second leading cause of death globally and is the primary cause of disability. With the World Health Organization estimating that 1 in 4 individuals may encounter a stroke during their lifetime, we've opted to focus on this dataset due to the indiscriminate nature of strokes, affecting individuals of all ages. 
+Stroke ranks as the second leading cause of death globally and is the primary cause of disability. With the World Health Organization estimating that one in four individuals may encounter a stroke during their lifetime, we've opted to focus on this dataset due to the indiscriminate nature of strokes, affecting individuals of all ages. 
 
 # Students names:
 
